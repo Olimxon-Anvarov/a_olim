@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(215, 43, 46);
+    flex-wrap: wrap;
+    display: flex;
+    object-fit: cover;
+}
+.cards {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    height: auto;
+
+}
+.img1{
+    width: 650px;
+    height: 450px;
+    margin: 5px;
+    border-radius: 30px;
+}
+.img {
+    width: 300;
+    height: 140px;
+    margin: 5px;
+    border-radius: 15px;
+}
+.text {
+    margin: 20px;
+    margin-left: 150px;
+    font-size: 15px;
+    color: rgb(45, 34, 34);
+    text-align: left;
+}

@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(247, 185, 186);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: center;
+}
+.card button:hover{
+    transition: 2s;
+    transform: 2s scale(2);
+}
+.card {
+    background-color: rgb(251, 218, 178);
+    width: 305px;
+    height: 370px;
+    margin: 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+    justify-content: space-between;
+    box-shadow: 5px 7px  rgb(218, 125, 12);
+}
+
+.img {
+    border-radius: 10px;
+    width: 295px;
+    height: 180px;
+    margin: 5px;
+}
+
+.data {
+    margin: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.text {
+    font-size: 18px;
+    margin: 5px;
+    margin-left: 10px;
+    color: rgb(152, 11, 11);
+}
+
+del {
+    font-size: 15px;
+    margin-left: 10px;
+    margin: 5px;
+}
+
+.sena {
+    font-size: 15px;
+    margin-left: 10px;
+    margin: 5px;
+}
+
+button {
+    border-radius: 10px;
+    border: 1px solid rgb(46, 140, 17);
+    margin: 5px;
+    padding: 6px 35px;
+    margin-left: 125px;
+    cursor: pointer;
+    background-color: rgb(176, 231, 231);
+}
+
+button:hover {
+    opacity: 0.5s;
+    transform: 2s;
+}
